@@ -6,10 +6,10 @@ Colly provides a clean interface to write any kind of crawler/scraper/spider.
 
 With Colly you can easily extract structured data from websites, which can be used for a wide range of applications, like data mining, data processing or archiving.
 
-[![GoDoc](https://godoc.org/github.com/gocolly/colly?status.svg)](https://pkg.go.dev/github.com/gocolly/colly/v2)
-[![Backers on Open Collective](https://opencollective.com/colly/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/colly/sponsors/badge.svg)](#sponsors) [![build status](https://github.com/gocolly/colly/actions/workflows/ci.yml/badge.svg)](https://github.com/gocolly/colly/actions/workflows/ci.yml)
+[![GoDoc](https://godoc.org/github.com/josheyr/colly?status.svg)](https://pkg.go.dev/github.com/josheyr/colly/v2)
+[![Backers on Open Collective](https://opencollective.com/colly/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/colly/sponsors/badge.svg)](#sponsors) [![build status](https://github.com/josheyr/colly/actions/workflows/ci.yml/badge.svg)](https://github.com/josheyr/colly/actions/workflows/ci.yml)
 [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=flat-square)](http://goreportcard.com/report/gocolly/colly)
-[![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://github.com/gocolly/colly/tree/master/_examples)
+[![view examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://github.com/josheyr/colly/tree/master/_examples)
 [![Code Coverage](https://img.shields.io/codecov/c/github/gocolly/colly/master.svg)](https://codecov.io/github/gocolly/colly?branch=master)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgocolly%2Fcolly.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgocolly%2Fcolly?ref=badge_shield)
 [![Twitter URL](https://img.shields.io/badge/twitter-follow-green.svg)](https://twitter.com/gocolly)
@@ -47,7 +47,7 @@ func main() {
 }
 ```
 
-See [examples folder](https://github.com/gocolly/colly/tree/master/_examples) for more detailed examples.
+See [examples folder](https://github.com/josheyr/colly/tree/master/_examples) for more detailed examples.
 
 ## Installation
 
@@ -59,13 +59,13 @@ module github.com/x/y
 go 1.14
 
 require (
-        github.com/gocolly/colly/v2 latest
+        github.com/josheyr/colly/v2 latest
 )
 ```
 
 ## Bugs
 
-Bugs or suggestions? Visit the [issue tracker](https://github.com/gocolly/colly/issues) or join `#colly` on freenode
+Bugs or suggestions? Visit the [issue tracker](https://github.com/josheyr/colly/issues) or join `#colly` on freenode
 
 ## Other Projects Using Colly
 
@@ -93,7 +93,7 @@ If you are using Colly in a project please send a pull request to add it to the 
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute]](CONTRIBUTING.md).
-<a href="https://github.com/gocolly/colly/graphs/contributors"><img src="https://opencollective.com/colly/contributors.svg?width=890" /></a>
+<a href="https://github.com/josheyr/colly/graphs/contributors"><img src="https://opencollective.com/colly/contributors.svg?width=890" /></a>
 
 ## Backers
 

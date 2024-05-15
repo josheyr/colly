@@ -99,7 +99,7 @@ func (r *Request) AbsoluteURL(u string) string {
 		return ""
 	}
 	var base *url.URL
-	if r.baseURL != nil {
+	if r.baseURL != nil && r.baseURL.Host != "" {
 		base = r.baseURL
 	} else {
 		base = r.URL

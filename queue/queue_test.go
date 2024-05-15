@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gocolly/colly/v2"
+	"github.com/josheyr/colly/v2"
 )
 
 func TestQueue(t *testing.T) {
